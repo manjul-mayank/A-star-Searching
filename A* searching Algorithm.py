@@ -152,3 +152,69 @@ if __name__ == "__main__":
                 print("Final path length:", len(path))
             else:
                 print("No solution found (but puzzle should be solvable)")
+
+
+
+Output Result
+
+Testing initial state 1:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+
+Using heuristic h1:
+Solution found in 0 moves
+Time taken: 0.0000 seconds
+Final path length: 1
+
+Using heuristic h2:
+Solution found in 0 moves
+Time taken: 0.0000 seconds
+Final path length: 1
+
+Using heuristic h3:
+Solution found in 0 moves
+Time taken: 0.0000 seconds
+Final path length: 1
+
+Using heuristic h4:
+Solution found in 0 moves
+Time taken: 0.0000 seconds
+Final path length: 1
+
+Testing initial state 2:
+[1, 2, 3]
+[4, 5, 6]
+[0, 7, 8]
+
+Using heuristic h1:
+Solution found in 2 moves
+Time taken: 0.0001 seconds
+Final path length: 3
+
+Using heuristic h2:
+Solution found in 2 moves
+Time taken: 0.0000 seconds
+Final path length: 3
+
+Using heuristic h3:
+Solution found in 2 moves
+Time taken: 0.0000 seconds
+Final path length: 3
+
+Using heuristic h4:
+Solution found in 2 moves
+Time taken: 0.0000 seconds
+Final path length: 3
+
+Testing initial state 3:
+[6, 7, 3]
+[8, 4, 2]
+[1, 0, 5]
+This puzzle is not solvable!
+
+Testing initial state 4:
+[8, 1, 2]
+[0, 4, 3]
+[7, 6, 5]
+This puzzle is not solvable!                
