@@ -1,3 +1,31 @@
+## Problem Statement:
+The assignment targets to implement A* search for 8-puzzle problem
+Question:
+In a general search algorithm, each state (n) maintains a function f(n) = g(n) + h(n)
+where g(n) is the least cost from the source state to state n found so far and h(n) is the
+estimated cost of the optimal path from state n to the goal state.
+Implement a search algorithm for solving the 8-puzzle problem with the following
+assumptions.
+1. g(n) least cost from source state to current state so far.
+2. Heuristics
+a. h1(n) = 0.
+b. h2(n) = number of tiles displaced from their destined position.
+c. h3(n) = sum of the Manhattan distance of each tile from the goal position.
+d. h4(n) = Devise a heuristics such that h(n) > h∗(n)
+1. 2. Observe and verify that better heuristics expands lesser states.
+Observe and verify that all the states expanded by better heuristics should also be
+expanded by inferior heuristics.
+3. Observe un-reachability and provide proof.
+4. Observe and verify whether the monotone restriction is followed for the following
+two Heuristics:
+a. Monotone restriction: h(n) <= cost(n,m) + h(m)
+b. Heuristic:
+i. h2(n) = number of tiles displaced from their destined position.
+ii. h3(n) = sum of the Manhattan distance of each tile from the goal
+position.
+5. Observe and verify that if the cost of the empty tile is added (considering the
+empty tile as another tile) then monotonicity will be violated.
+
 🧩 8-Puzzle Solver with A* Search Algorithm
 🌟 **A Python implementation of the classic 8-puzzle problem solved using A* search with multiple heuristic functions.**
 
